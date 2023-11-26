@@ -11,7 +11,7 @@ body{
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: aliceblue;
+    background-color: white;
 }
 
 .navbar-brand img{
@@ -24,7 +24,7 @@ li{
 }
 .dropdown-menu{
     background-color: #A8C867;
-}
+    }
 
   footer{
     background-color: #6e961eff;

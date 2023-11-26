@@ -1,17 +1,15 @@
 body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Nunito', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aliceblue;
+    overflow-x: hidden;
 
 }
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-body{
-    font-family: 'Montserrat', sans-serif;
-    background-color: aliceblue;
 }
 
 .navbar-brand img{
@@ -25,7 +23,107 @@ li{
 .dropdown-menu{
     background-color: #A8C867;
 }
+#menu1{
+  width: 123px;
+  color: rgba(255,251,251,1);
+  position: absolute;
+  top: 84px;
+  left: 1168px;
+  font-family: Nunito;
+  font-weight: Bold;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
 
+#menu2{
+  width: 149px;
+  color: rgba(255,251,251,1);
+  position: absolute;
+  top: 84px;
+  left: 1295px;
+  font-family: Nunito;
+  font-weight: Bold;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+
+h1{
+  font-size: 56px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+h2{
+  font-size: 48px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900; 
+}
+
+h5{
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+.texto-prod {
+  text-align: left;
+  color: #70991e;
+  position: relative;
+  margin-bottom: 5em;
+}
+.card{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  color: #70991e;
+  border-radius: 35px;
+  width: 265px;
+  left: 95px;
+}
+.card-img-top{
+  border-top-right-radius: 35px;
+  border-top-left-radius: 35px;
+}
+.btn{
+  background-color: #70991e;
+  color: white;
+  border-radius: 15.43px;
+  transition: 0.3s ease;
+}
+.btn:hover {
+  background-color: #A8C867;
+  color: white;
+}
+#exampleModal{
+  background-color: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.modal-content{
+  background-color: white;
+  color: #70991e;
+  border-radius: 35px;
+  font-size:18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border: none;
+  
+}
+.close {
+  background-color: #70991e;
+  color: white;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+.close:hover {
+  background-color: #A8C867;
+  color: white;
+}
+.texto-prod {
+  text-align: left;
+  color: #70991e;
+  position: relative;
+  left:177px;
+}
   footer{
     background-color: #6e961eff;
     color: white;
