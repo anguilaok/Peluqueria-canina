@@ -1,9 +1,14 @@
+.body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+
+}
 .navbar-brand img{
     width: 400px;
     height: 75px;
 }
-.texto-uno{
-    color:#70991e;
+.title{
+    color:#A8C867;
     text-align:left;
     vertical-align:text-top;
     font-size:24px;
@@ -15,4 +20,74 @@
     top:1048px;
     width:1265px;
     position: static;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 5em;
+    padding-bottom: 5em;
     }
+    .writing{
+        padding-top: 5em;
+        padding-bottom: 5em;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+.dropdown-menu{
+    background-color: #A8C867;
+}
+h1{
+    font-size: 56px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900; 
+}
+
+.texto-uno{
+    color:#70991e;
+    text-align:left;
+    vertical-align:text-top;
+    font-size:24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+    line-height:auto;
+    border-style:hidden;
+    outline:none;
+    left:117px;
+    top:1048px;
+    width:1265px;
+    position: static;
+    }
+    footer{
+        background-color: #6e961eff;
+        color: white;
+        font-family: 'Nunito', sans-serif;
+      }
+    
+      footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        font-size: 1.2;
+        font-weight: bold;
+      }
+    
+      footer .logos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+    
+      footer .logos img{
+        width: 100%;
+        padding: 3px;
+        padding: 0px 15px;
+      }

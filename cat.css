@@ -1,0 +1,55 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: aliceblue;
+}
+
+.navbar-brand img{
+    width: 400px;
+    height: 75px;
+}
+
+li{
+    font-family:'Nunito', sans-serif;
+}
+.dropdown-menu{
+    background-color: #A8C867;
+}
+
+  footer{
+    background-color: #6e961eff;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 1.2;
+    font-weight: bold;
+  }
+
+  footer .logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  footer .logos img{
+    width: 100%;
+    padding: 3px;
+    padding: 0px 15px;
+  }
