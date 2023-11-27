@@ -83,3 +83,26 @@ footer{
     padding: 3px;
     padding: 0px 15px;
   }
+  @media (max-width:600px){
+    .fondo img{
+      display: none;
+    }
+    .navbar-brand img{
+      max-width: 75%;
+      height: auto;
+      }
+    .texto-uno p{
+      margin-left: 0%;
+      padding-left: 0%;
+      text-align: left;
+    }
+    .texto-uno h1{
+      margin-left 0%;
+      padding-left: 0%;
+      text-align: left;
+      }
+      .texto-uno h5{
+        margin-left: 0%;
+        padding-left: 0%;
+        text-align: left;}
+       }
