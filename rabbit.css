@@ -1,105 +1,162 @@
 body{
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
 
 }
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
-    background-color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
+  background-color: aliceblue;
 }
 
 .navbar-brand img{
-    width: 400px;
-    height: 75px;
+  width: 400px;
+  height: 75px;
+}
+
+.nav-item{
+font-family: 'Nunito', sans-serif;
+font-size: 22px;
+font-weight: 700;
 }
 
 li{
-    font-family:'Nunito', sans-serif;
+  font-family:'Nunito', sans-serif;
 }
 .dropdown-menu{
-    background-color: #A8C867;
+background-color: #A8C867;
+font-family: 'Nunito', sans-serif;
+font-size: 22;
+font-weight: 700;
 }
 .title{
-  margin-left: 6em;
-  margin-bottom: 2em;
+margin-left: 6em;
+margin-bottom: 2em;
 }
 .sub-title-1{
-  margin-left: 12em;
-  margin-bottom: 2em;
+margin-left: 12em;
+margin-bottom: 2em;
+font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  font-weight: 900;
 }
 .parrafo1{
-  margin-left: 13em;
+margin-left: 13em;
+font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  font-weight: 600;
 }
 .parrafo2{
-  margin-left: 11em;
+margin-left: 11em;
+font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  font-weight: 600;
 }
 .parrafo3{
-  margin-left: 13em;
+margin-left: 13em;
+font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  font-weight: 600;
 }
 .sub-title-2{
-  margin-bottom: 2em;
-  margin-top: 2em;
-  margin-left: 12em;
+margin-bottom: 2em;
+margin-top: 2em;
+margin-left: 12em;
+font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  font-weight: 900;
 }
 .parrafo4{
-  margin-left: 13em;
+margin-left: 13em;
+font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  font-weight: 600;
 }
 .parrafo5{
-  margin-left: 11em;
-  margin-bottom: 3em;
+margin-left: 11em;
+margin-bottom: 3em;
+font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  font-weight: 600;
 }
-  footer{
-    background-color: #A8C867;
-    color: white;
-    font-family: 'Nunito', sans-serif;
-  }
+footer{
+  background-color: #A8C867;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
 
-  footer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    font-size: 1.2;
-    font-weight: bold;
-  }
+footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 1.2;
+  font-weight: bold;
+}
+footer > div{
+  margin-left: 16em;
+}
 
-  footer .logos{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
+footer .logos{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 16em;
+}
 
-  footer .logos img{
-    width: 100%;
-    padding: 3px;
-    padding: 0px 15px;
+footer .logos img{
+  width: 100%;
+  padding: 3px;
+  padding: 0px 15px;
+}
+@media (max-width:600px){
+  .fondo img{
+    display: none;
   }
-  @media (max-width:600px){
-    .fondo img{
-      display: none;
+  .navbar-brand img{
+    max-width: 75%;
+    height: auto;
     }
-    .navbar-brand img{
-      max-width: 75%;
-      height: auto;
-      }
-    .texto-uno p{
+  .texto-uno p{
+    margin-left: 0%;
+    padding-left: 0%;
+    text-align: left;
+  }
+  .texto-uno h1{
+    padding-left: 0%;
+    text-align: left;
+    }
+    .texto-uno h5{
       margin-left: 0%;
       padding-left: 0%;
-      text-align: left;
-    }
-    .texto-uno h1{
-      padding-left: 0%;
-      text-align: left;
+      text-align: left;}
+      footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        line-height: 0.5;
+        padding: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        padding-left: 3em;
+        padding-bottom: 23%;
       }
-      .texto-uno h5{
+    
+      footer > div{
         margin-left: 0%;
-        padding-left: 0%;
-        text-align: left;}
-       }
+      }
+      footer .logos{
+      margin-right: 0%;
+      }
+      
+     }
+
+  

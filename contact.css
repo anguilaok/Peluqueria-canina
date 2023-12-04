@@ -1,55 +1,126 @@
 body{
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
 
 }
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
-    background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+}
+nav{
+overflow-x: hidden;
 }
 
 .navbar-brand img{
-    width: 300px;
-    height: 75px;
+  width: 300px;
+  height: 75px;
+}
+
+.nav-item{
+font-family: 'Nunito', sans-serif;
+font-size: 22px;
+font-weight: 700;
 }
 
 li{
-    font-family:'Nunito', sans-serif;
+  font-family:'Nunito', sans-serif;
 }
 .dropdown-menu{
-    background-color: #A8C867;
-    }
+  background-color: #A8C867;
+  font-family: 'Nunito', sans-serif;
+  font-size: 22;
+  font-weight: 700;
 
-  footer{
-    background-color: #A8C867;
-    color: white;
-    font-family: 'Nunito', sans-serif;
-  }
+}
+h2.title {
+text-align: left;
+color: #A8C867;
+margin: 2em 0; 
+}
 
+.title-container {
+text-align: left;
+margin-right: 6em; 
+}
+
+.btn{
+  margin-top: 2em;
+  margin-bottom: 4em;
+  background-color: #70991e;
+  color: white;
+  border-radius: 15.43px;
+  transition: 0.3s ease;
+}
+.btn:hover {
+  background-color: #A8C867;
+  color: white;
+}
+.map-space {
+  height: 100px; 
+}
+footer{
+background-color: #A8C867;
+color: white;
+font-family: 'Nunito', sans-serif;
+}
+
+
+footer {
+display: flex;
+flex-direction: column; 
+align-items: center; 
+justify-content: center; 
+line-height: 1.5;
+padding: 20px;
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+font-weight: 600;
+}
+
+footer > div {
+display: flex;
+flex-direction: column; 
+align-items: center; 
+text-align: center; 
+}
+
+footer .logos {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center; 
+margin-top: 20px; 
+}
+
+footer .logos img {
+width: 100%;
+padding: 3px;
+margin: 0 15px; 
+}
+@media (max-width:600px){
   footer{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    line-height: 0.5;
     padding: 20px;
-    font-size: 1.2;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 3em;
   }
 
+  footer > div{
+    margin-left: 0%;
+  }
   footer .logos{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  margin-right: 0%;
   }
-
-  footer .logos img{
-    width: 100%;
-    padding: 3px;
-    padding: 0px 15px;
-  }
+}

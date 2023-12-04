@@ -12,7 +12,7 @@
     text-align:left;
     vertical-align:text-top;
     font-size:24px;
-    font-family:Montserrat;
+    font-family: 'Montserrat', sans-serif;
     line-height:auto;
     border-style:hidden;
     outline:none;
@@ -34,6 +34,9 @@
     }
 .dropdown-menu{
     background-color: #A8C867;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22;
+    font-weight: 700;
 }
 h1{
     font-size: 56px;
@@ -64,6 +67,12 @@ h2{
     top:1048px;
     width:1265px;
     position: static;
+    }
+
+    .nav-item{
+        font-family: 'Nunito', sans-serif;
+        font-size: 22px;
+        font-weight: 700;
     }
     .card{
         width: 265px;
@@ -138,11 +147,15 @@ h2{
         font-size: 1.2;
         font-weight: bold;
       }
+      footer > div{
+        margin-left: 16em;
+      }
     
       footer .logos{
         display: flex;
         flex-direction: row;
         align-items: center;
+        margin-right: 16em;
       }
     
       footer .logos img{
@@ -150,11 +163,10 @@ h2{
         padding: 3px;
         padding: 0px 15px;
       }
+      
       @media (max-width:600px)
       {
-        *{
-            overflow-x: hidden;
-        }
+
         .fondo1{
         height: 90vh;
         width: 100vw;
@@ -216,15 +228,23 @@ h2{
     }
 
     footer{
-        background-color: #A8C867;
-        color: white;
-        font-family: 'Nunito', sans-serif;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+        justify-content: space-between;
+        line-height: 0.5;
         padding: 20px;
-        font-size: 1.2;
-        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        padding-left: 3em;
+      }
+    
+      footer > div{
+        margin-left: 0%;
+      }
+      footer .logos{
+      margin-right: 0%;
       }
 
       .footer1{
